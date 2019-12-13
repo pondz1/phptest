@@ -1,0 +1,103 @@
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #013AD5 ;
+  }
+li{
+    float: left;
+}  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a:hover{
+    background-color: #002EA3;
+}  
+.center{
+    text-align: center;
+}
+.main{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+h1.center{
+  text-align: center;
+  color: #002D9E;
+}
+body{
+    margin: 0;
+    background-image: url("/img/bgg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: #B7E1FF;
+    font-family: 'Kanit', sans-serif;
+}
+img.center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+img.centerin{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+  /* Three columns side by side */
+.column {
+    float: left;
+    width: 17%;
+    margin-bottom: 2%;
+    padding: 10px 1.5%;
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 70%;
+      display: block;
+      padding: 15%;
+      margin-bottom: 0px;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 10px 30px black;
+  }
+  .card2 {
+    box-shadow: 0 10px 30px black;
+    width: 70%;
+    margin-bottom: 3%;
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .boximg{
+    float: left;
+    padding: 20px;
+    width: 25%;
+  }
+  .boxtext{
+    float: left;
+    padding-left: 3%;
+    width: 60%;
+  }
+  .colort{
+    color: #1B57FE;
+  }
